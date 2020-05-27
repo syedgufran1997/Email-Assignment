@@ -1,0 +1,62 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.emailbox {
+  display: flex;
+}
+.sidebar {
+  font-family: "Open Sans Condensed", sans-serif;
+  background-color: grey;
+  color: white;
+  height: 100vh;
+  width: 10vw;
+}
+.icons {
+  margin: 8.5rem 0.6rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.backicon,
+.topicon {
+  margin: 1rem 1.5rem;
+  font-size: 30px;
+}
+.icons i {
+  font-size: 35px;
+}
+.icons i,
+h2 {
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.icons h2:hover {
+  color: darkslategrey;
+}
+.icons i:hover {
+  color: darkslategrey;
+}
+.main-content {
+  margin: 1rem 1rem;
+}
+.careicons {
+  color: grey;
+  font-size: 200%;
+}
+.careicons i {
+  margin-right: 0.5rem;
+}
+.topheading h1 {
+  margin: 1rem 1rem;
+  color: darkmagenta;
+}
+.topheading img {
+  height: 15%;
+  width: 30%;
+}

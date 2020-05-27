@@ -8,21 +8,26 @@
 }
 .sidebar {
   font-family: "Open Sans Condensed", sans-serif;
-  background-color: grey;
+  padding: 0.5rem;
+  background-color: #626262;
   color: white;
   height: 100vh;
   width: 10vw;
 }
 .icons {
-  margin: 8.5rem 0.6rem;
+  margin-top: 10vh;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
 }
-.backicon,
-.topicon {
-  margin: 1rem 1.5rem;
+.backicon {
+  margin: 0.5rem 1.4rem;
   font-size: 30px;
+}
+.topicon {
+  font-size: 2rem;
+  margin-left: 1rem;
+  margin-top: 4.5rem;
 }
 .icons i {
   font-size: 35px;
@@ -32,10 +37,11 @@ h2 {
   border: 3px solid white;
   border-radius: 50%;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   letter-spacing: 2px;
   text-align: center;
 }
+
 .icons h2:hover {
   color: darkslategrey;
 }
@@ -46,11 +52,16 @@ h2 {
   margin: 1rem 1rem;
 }
 .careicons {
-  color: grey;
+  color: #626262;
   font-size: 200%;
 }
 .careicons i {
   margin-right: 0.5rem;
+}
+.topheading {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
 }
 .topheading h1 {
   margin: 1rem 1rem;
@@ -59,4 +70,81 @@ h2 {
 .topheading img {
   height: 15%;
   width: 30%;
+  vertical-align: middle;
+}
+.midcontent {
+  margin-left: 1rem;
+}
+.headbars button {
+  height: 10%;
+  width: 25%;
+  padding: 0.5rem;
+}
+.imgcontent {
+  background-color: #f4f4f4;
+  display: flex;
+  height: 40vh;
+}
+.imgcontent img {
+  width: 60%;
+}
+.imgcontent h4 {
+  color: darkmagenta;
+  margin: 3rem 0.6rem;
+}
+.imgcontent p {
+  margin: 2rem 2rem;
+}
+.paragraph {
+  margin: 2rem 0;
+}
+.paragraph h3 {
+  color: darkmagenta;
+  margin-bottom: 2rem;
+}
+.paragraph p {
+  margin: 2rem 0;
+  font-size: 1.3rem;
+}
+.footer {
+  background-color: #adadad;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -1rem;
+}
+.footer button {
+  margin-left: 0.2rem;
+  width: 30%;
+  padding: 5px;
+  color: white;
+  background-color: #adadad;
+  outline: none;
+}
+@media screen and (min-width: 1000px) {
+  .topicon {
+    font-size: 2.5rem;
+    margin-top: 11rem;
+  }
+  .paragraph p {
+    margin: 2.7rem 0;
+    padding: 8px;
+  }
+  .footer button {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .topicon {
+    font-size: 2.5rem;
+    margin-top: 18rem;
+  }
+  .paragraph p {
+    margin: 2.7rem 0;
+    padding: 8px;
+    margin-bottom: 5rem;
+  }
+  .footer button {
+    font-size: 1.2rem;
+    padding: 0.8rem;
+  }
 }
